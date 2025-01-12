@@ -1,0 +1,11 @@
+
+services:
+  jupyter:
+    build: .
+    container_name: jupyter_container
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan
+    environment:
+      - USER_PASSWORD=${USER_PASSWORD}  # 환경 파일에서 읽음

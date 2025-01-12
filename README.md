@@ -1,6 +1,13 @@
 # Fastcampus - AI의 시작부터 챗GPT의 원리까지
 <br><br>
 
+## 로컬 환경 설정
+
+- 파이썬 설치
+- Jupyter Notebook 설치
+- pip install jupyter
+- pip install -r requirements.txt
+
 ## Part1. AI 가 가져온 혁신, 활용, 작동 원리의 이해
 - **새 AI의 등장:** 질문하고, 검증하는 자가 앞서가는 시대
 - **실습:** [AI가 문맥을 파악하는 원리](https://colab.research.google.com/github/taehojo/fastcampus_ai/blob/master/colab/00-colab.ipynb)
